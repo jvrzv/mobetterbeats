@@ -10,7 +10,7 @@ body {
     font-size: 14px;
     text-decoration: none;
     color: #fff;
-    padding-top: 100px; /* Dodatkowy padding, aby treść nie nachodziła na logo */
+    padding-top: 120px; /* Większy odstęp, aby treść nie nachodziła na logo */
     padding-bottom: 60px; /* Miejsce na stopkę */
 }
 
@@ -45,84 +45,10 @@ img {
     width: 100%;
     text-align: center;
     background-color: black; /* Dopasowanie do tła */
-    padding: 10px 0;
+    padding: 15px 0; /* Większy padding, żeby logo nie było zbyt wysoko */
     z-index: 1000; /* Zapewnia, że logo jest na wierzchu */
 }
 
 .header img {
-    max-height: 75px;
-    width: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.album {
-    text-align: center;
-}
-
-.streamingi {
-    text-align: center;
-    margin: 30px auto;
-}
-
-.odstepy {
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-.poprzedni {
-    text-align: center;
-    margin: auto;
-}
-
-/* Przypięta stopka */
-.footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    background-color: black;
-    padding: 10px 0;
-    color: #888;
-}
-
-.footer p {
-    margin: 2px 0; /* Minimalny odstęp między elementami */
-}
-
-.footer img {
-    max-height: 75px;
-    width: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-@media screen and (max-width: 1919px) {
-    body {
-        font-size: 12px;
-    }
-
-    a {
-        font-size: 12px;
-    }
-
-    .streamingi {
-        margin-top: 20px;
-        margin-bottom: 15px;
-        max-width: 100%;
-    }
-
-    .streamingi img {
-        max-height: 28px;
-    }
-
-    .odstepy {
-        padding-right: 6px;
-        padding-left: 6px;
-    }
-
-    .footer {
-        padding: 8px 0;
-    }
-}
+    max-height: 85px; /* Minimalnie większa wysokość dla lepszego dopasowania */
+    width
