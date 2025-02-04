@@ -63,7 +63,7 @@ img {
 }
 
 .footer img {
-    max-height: 100px;
+    max-height: 200px;
     width: auto;
 }
 @media screen and (max-width: 1919px) {
@@ -136,6 +136,6 @@ img {
 }
 
 .footer img {
-    max-height: 100px;
+    max-height: 200px;
     width: auto;
 }
