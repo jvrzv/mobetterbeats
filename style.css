@@ -10,7 +10,8 @@ body {
     font-size: 14px;
     text-decoration: none;
     color: #fff;
-    padding-bottom: 60px;
+    padding-top: 100px; /* Dodatkowy padding, aby treść nie nachodziła na logo */
+    padding-bottom: 60px; /* Miejsce na stopkę */
 }
 
 a {
@@ -36,10 +37,23 @@ img {
     opacity: 0.8;
 }
 
+/* Przypięte logo na górze strony */
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    background-color: black; /* Dopasowanie do tła */
+    padding: 10px 0;
+    z-index: 1000; /* Zapewnia, że logo jest na wierzchu */
+}
+
+.header img {
+    max-height: 75px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 .album {
@@ -61,6 +75,7 @@ img {
     margin: auto;
 }
 
+/* Przypięta stopka */
 .footer {
     position: fixed;
     bottom: 0;
@@ -77,7 +92,7 @@ img {
 }
 
 .footer img {
-    max-height: 50px;
+    max-height: 75px;
     width: auto;
     display: block;
     margin: 0 auto;
@@ -90,10 +105,6 @@ img {
 
     a {
         font-size: 12px;
-    }
-
-    .header {
-        margin-bottom: 30px;
     }
 
     .streamingi {
