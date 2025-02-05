@@ -78,9 +78,6 @@ img {
     font-size: 18px;
     margin: 40px auto;
     padding-top: 20px;
-    padding-bottom: 20px;
-    height: 60px; /* Dodaj wysokość, aby upewnić się, że tekst ma miejsce */
-    overflow: visible; /* Zapewnia, że nie będzie przycinany */
 }
 
 .releases a {
@@ -90,7 +87,6 @@ img {
     padding-top: 10px;
     display: inline-block;
     margin-top: 20px;
-    line-height: 1.5; /* Ustawienie odpowiedniej wysokości linii */
 }
 
 .releases a:hover {
@@ -125,17 +121,16 @@ img {
 /* Responsive Styles */
 @media screen and (max-width: 1024px) {
     body {
-        font-size: 16px;
+        font-size: 16px; /* Zmniejsza czcionkę na mniejszych ekranach */
         padding-top: 100px;
     }
 
     a {
-        font-size: 16px;
+        font-size: 16px; /* Dostosowuje rozmiar linków */
     }
 
     .releases {
-        font-size: 16px;
-        height: 50px; /* Zmniejszenie wysokości, aby dostosować do mniejszych ekranów */
+        font-size: 16px; /* Zmniejsza font na mniejszych ekranach */
     }
 
     .streamingi {
@@ -154,16 +149,16 @@ img {
 
 @media screen and (max-width: 600px) {
     body {
-        font-size: 14px;
+        font-size: 14px; /* Dostosowanie do bardzo małych ekranów */
         padding-top: 80px;
     }
 
     .releases a {
-        font-size: 14px;
-        margin-top: 15px;
+        font-size: 14px; /* Zmniejszenie czcionki w linku */
+        margin-top: 15px; /* Dostosowanie marginesu */
     }
 
     .footer p {
-        font-size: 10px;
+        font-size: 10px; /* Zmniejszenie rozmiaru czcionki w stopce */
     }
 }
