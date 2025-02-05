@@ -78,6 +78,8 @@ img {
     font-size: 18px;
     margin: 40px auto;
     padding-top: 20px;
+    padding-bottom: 20px;  /* Dodałem padding na dole, by zapewnić więcej przestrzeni */
+    white-space: nowrap; /* Zapewnia, że tekst się nie zawija */
 }
 
 .releases a {
@@ -93,72 +95,4 @@ img {
     color: #FFFF8F;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    background-color: black;
-    padding: 10px 0;
-    color: #888;
-}
-
-.footer p {
-    margin: 2px 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 11px;
-    color: #888;
-}
-
-.footer img {
-    max-height: 75px;
-    width: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-/* Responsive Styles */
-@media screen and (max-width: 1024px) {
-    body {
-        font-size: 16px; /* Zmniejsza czcionkę na mniejszych ekranach */
-        padding-top: 100px;
-    }
-
-    a {
-        font-size: 16px; /* Dostosowuje rozmiar linków */
-    }
-
-    .releases {
-        font-size: 16px; /* Zmniejsza font na mniejszych ekranach */
-    }
-
-    .streamingi {
-        margin-top: 15px;
-        margin-bottom: 10px;
-    }
-
-    .streamingi img {
-        max-height: 30px;
-    }
-
-    .footer {
-        padding: 8px 0;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    body {
-        font-size: 14px; /* Dostosowanie do bardzo małych ekranów */
-        padding-top: 80px;
-    }
-
-    .releases a {
-        font-size: 14px; /* Zmniejszenie czcionki w linku */
-        margin-top: 15px; /* Dostosowanie marginesu */
-    }
-
-    .footer p {
-        font-size: 10px; /* Zmniejszenie rozmiaru czcionki w stopce */
-    }
-}
+.footer
