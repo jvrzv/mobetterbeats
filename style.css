@@ -65,6 +65,12 @@ img {
     margin: 30px auto;
 }
 
+/* Zmniejszenie ikon streamingów o 30% */
+.streamingi img {
+    max-height: 45px; /* Było ok. 40px, zmniejszone o 30% */
+    width: auto;
+}
+
 .odstepy {
     padding-right: 10px;
     padding-left: 10px;
@@ -115,7 +121,7 @@ img {
     }
 
     .streamingi img {
-        max-height: 28px;
+        max-height: 30px;
     }
 
     .odstepy {
