@@ -10,8 +10,8 @@ body {
     font-size: 14px;
     text-decoration: none;
     color: #fff;
-    padding-top: 120px; /* Większy odstęp, aby treść nie nachodziła na logo */
-    padding-bottom: 60px; /* Miejsce na stopkę */
+    padding-top: 120px;
+    padding-bottom: 60px;
 }
 
 a {
@@ -37,20 +37,19 @@ img {
     opacity: 0.8;
 }
 
-/* Przypięte logo na górze strony */
 .header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     text-align: center;
-    background-color: black; /* Dopasowanie do tła */
-    padding: 15px 0; /* Większy padding, żeby logo nie było zbyt wysoko */
-    z-index: 1000; /* Zapewnia, że logo jest na wierzchu */
+    background-color: black;
+    padding: 15px 0;
+    z-index: 1000;
 }
 
 .header img {
-    max-height: 85px; /* Minimalnie większa wysokość dla lepszego dopasowania */
+    max-height: 85px;
     width: auto;
     display: block;
     margin: 0 auto;
@@ -65,9 +64,8 @@ img {
     margin: 30px auto;
 }
 
-/* Zmniejszenie ikon streamingów o 30% */
 .streamingi img {
-    max-height: 45px; /* Było ok. 40px, zmniejszone o 30% */
+    max-height: 40px;
     width: auto;
 }
 
@@ -81,7 +79,6 @@ img {
     margin: auto;
 }
 
-/* Przypięta stopka */
 .footer {
     position: fixed;
     bottom: 0;
@@ -94,7 +91,7 @@ img {
 }
 
 .footer p {
-    margin: 2px 0; /* Minimalny odstęp między elementami */
+    margin: 2px 0;
 }
 
 .footer img {
@@ -107,7 +104,7 @@ img {
 @media screen and (max-width: 1919px) {
     body {
         font-size: 12px;
-        padding-top: 110px; /* Dopasowanie dla mniejszych ekranów */
+        padding-top: 110px;
     }
 
     a {
