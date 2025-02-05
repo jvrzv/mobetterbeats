@@ -5,18 +5,17 @@
 }
 
 body {
+    font-family: 'Roboto Mono', serif !important;  /* Dodano font-family do body */
     background-color: #000;
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 14px;
-    text-decoration: none;
-    color: #fff;
+    color: #fff; /* Kolor tekstu na biały */
+    font-size: 18px;
     padding-top: 120px;
     padding-bottom: 60px;
 }
 
 a {
     color: #fff;
-    font-size: 14px;
+    font-size: 18px;
     text-decoration: none;
 }
 
@@ -74,9 +73,24 @@ img {
     padding-left: 10px;
 }
 
-.poprzedni {
+.releases {
     text-align: center;
-    margin: auto;
+    font-size: 18px;
+    margin: 40px auto; /* Dodano margines na górze i dole, aby oddzielić od innych elementów */
+    padding-top: 20px; /* Możesz dostosować padding, jeśli chcesz większą przestrzeń wewnętrzną */
+}
+
+.releases a {
+    font-size: 18px;  /* Zwiększenie rozmiaru czcionki */
+    color: #fff;
+    text-decoration: none;  /* Usunięcie podkreślenia */
+    padding-top: 10px;
+    display: inline-block;
+    margin-top: 20px;  /* Możesz dostosować margines na górze */
+}
+
+.releases a:hover {
+    color: #FFFF8F;  /* Kolor po najechaniu */
 }
 
 .footer {
@@ -92,6 +106,9 @@ img {
 
 .footer p {
     margin: 2px 0;
+    font-family: 'Open Sans', sans-serif; /* Dodano Open Sans do napisu w stopce */
+    font-size: 11px;
+    color: #888;
 }
 
 .footer img {
