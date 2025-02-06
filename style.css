@@ -17,7 +17,7 @@ a {
     color: #fff;
     font-size: 18px;
     text-decoration: none;
-    font-family: 'Roboto Mono', monospace !important;
+    font-family: 'Roboto Mono', monospace;
 }
 
 a:hover {
@@ -90,7 +90,7 @@ img {
     padding-top: 5px;
     display: inline-block;
     margin-top: 10px;
-    font-family: 'Roboto Mono', monospace !important;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .releases a:hover {
@@ -168,7 +168,15 @@ img {
         padding-bottom: 40px;
     }
 
+    .footer {
+        padding: 5px 0;
+    }
+
     .footer p {
-        font-size: 9px;
+        font-size: 7px;
+    }
+
+    .footer img {
+        max-height: 50px;
     }
 }
