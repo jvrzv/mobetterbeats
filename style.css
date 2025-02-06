@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Roboto Mono', serif !important;
+    font-family: 'Open Sans', sans-serif !important;
     background-color: #000;
     color: #fff;
     font-size: 18px;
@@ -28,12 +28,13 @@ img {
     height: auto;
 }
 
-#trans {
+.hover-effect {
     transition: all 0.1s linear;
+    filter: brightness(1);
 }
 
-#trans:hover {
-    opacity: 0.8;
+.hover-effect:hover {
+    filter: brightness(0.8);
 }
 
 .header {
@@ -43,7 +44,7 @@ img {
     width: 100%;
     text-align: center;
     background-color: black;
-    padding: 15px 0;
+    padding: 10px 0;
     z-index: 1000;
 }
 
@@ -60,7 +61,7 @@ img {
 
 .streamingi {
     text-align: center;
-    margin: 30px auto;
+    margin: 20px auto;
 }
 
 .streamingi img {
@@ -69,24 +70,24 @@ img {
 }
 
 .odstepy {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 8px;
+    padding-left: 8px;
 }
 
 .releases {
     text-align: center;
     font-size: 18px;
-    margin: 40px auto;
-    padding-top: 20px;
+    margin: 20px auto;
+    padding-top: 10px;
 }
 
 .releases a {
     font-size: 18px;
     color: #fff;
     text-decoration: none;
-    padding-top: 10px;
+    padding-top: 5px;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .releases a:hover {
@@ -100,14 +101,13 @@ img {
     width: 100%;
     text-align: center;
     background-color: black;
-    padding: 10px 0;
+    padding: 8px 0;
     color: #888;
 }
 
 .footer p {
     margin: 2px 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 11px;
+    font-size: 10px;
     color: #888;
 }
 
@@ -121,21 +121,21 @@ img {
 /* Responsive Styles */
 @media screen and (max-width: 1024px) {
     body {
-        font-size: 16px; /* Zmniejsza czcionkę na mniejszych ekranach */
+        font-size: 16px;
         padding-top: 100px;
     }
 
     a {
-        font-size: 16px; /* Dostosowuje rozmiar linków */
+        font-size: 16px;
     }
 
     .releases {
-        font-size: 16px; /* Zmniejsza font na mniejszych ekranach */
+        font-size: 16px;
     }
 
     .streamingi {
-        margin-top: 15px;
-        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-bottom: 5px;
     }
 
     .streamingi img {
@@ -143,22 +143,22 @@ img {
     }
 
     .footer {
-        padding: 8px 0;
+        padding: 6px 0;
     }
 }
 
 @media screen and (max-width: 600px) {
     body {
-        font-size: 14px; /* Dostosowanie do bardzo małych ekranów */
+        font-size: 14px;
         padding-top: 80px;
     }
 
     .releases a {
-        font-size: 14px; /* Zmniejszenie czcionki w linku */
-        margin-top: 15px; /* Dostosowanie marginesu */
+        font-size: 14px;
+        margin-top: 10px;
     }
 
     .footer p {
-        font-size: 10px; /* Zmniejszenie rozmiaru czcionki w stopce */
+        font-size: 9px;
     }
 }
