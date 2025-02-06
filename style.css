@@ -17,6 +17,7 @@ a {
     color: #fff;
     font-size: 18px;
     text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
 }
 
 a:hover {
@@ -77,18 +78,19 @@ img {
 .releases {
     text-align: center;
     font-size: 18px;
-    margin: 10px auto;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    margin: 20px auto;
+    padding-top: 10px;
+    padding-bottom: 20px; /* Dodane, aby linki nie nachodziły na stopkę */
 }
 
 .releases a {
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     text-decoration: none;
     padding-top: 5px;
     display: inline-block;
-    margin-top: 5px;
+    margin-top: 10px;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .releases a:hover {
@@ -102,18 +104,18 @@ img {
     width: 100%;
     text-align: center;
     background-color: black;
-    padding: 6px 0;
+    padding: 8px 0;
     color: #888;
 }
 
 .footer p {
     margin: 2px 0;
-    font-size: 9px;
+    font-size: 10px;
     color: #888;
 }
 
 .footer img {
-    max-height: 65px;
+    max-height: 75px;
     width: auto;
     display: block;
     margin: 0 auto;
@@ -132,21 +134,21 @@ img {
     }
 
     .releases {
-        font-size: 14px;
-        padding-bottom: 20px;
+        font-size: 16px;
+        padding-bottom: 30px;
     }
 
     .streamingi {
-        margin-top: 5px;
+        margin-top: 10px;
         margin-bottom: 5px;
     }
 
     .streamingi img {
-        max-height: 28px;
+        max-height: 30px;
     }
 
     .footer {
-        padding: 5px 0;
+        padding: 6px 0;
     }
 }
 
@@ -158,15 +160,15 @@ img {
     }
 
     .releases a {
-        font-size: 12px;
-        margin-top: 8px;
+        font-size: 14px;
+        margin-top: 10px;
     }
 
     .releases {
-        padding-bottom: 30px;
+        padding-bottom: 40px;
     }
 
     .footer p {
-        font-size: 8px;
+        font-size: 9px;
     }
 }
