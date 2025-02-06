@@ -10,7 +10,7 @@ body {
     color: #fff;
     font-size: 18px;
     padding-top: 120px;
-    padding-bottom: 60px;
+    padding-bottom: 80px; /* Zwiększony padding, aby linki nie chowały się za stopką */
 }
 
 a {
@@ -77,17 +77,18 @@ img {
 .releases {
     text-align: center;
     font-size: 18px;
-    margin: 20px auto;
-    padding-top: 10px;
+    margin: 10px auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 .releases a {
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     text-decoration: none;
     padding-top: 5px;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .releases a:hover {
@@ -101,18 +102,18 @@ img {
     width: 100%;
     text-align: center;
     background-color: black;
-    padding: 8px 0;
+    padding: 6px 0;
     color: #888;
 }
 
 .footer p {
     margin: 2px 0;
-    font-size: 10px;
+    font-size: 9px;
     color: #888;
 }
 
 .footer img {
-    max-height: 75px;
+    max-height: 65px;
     width: auto;
     display: block;
     margin: 0 auto;
@@ -123,6 +124,7 @@ img {
     body {
         font-size: 16px;
         padding-top: 100px;
+        padding-bottom: 90px; /* Zapobiega zasłanianiu linków przez stopkę */
     }
 
     a {
@@ -130,20 +132,21 @@ img {
     }
 
     .releases {
-        font-size: 16px;
+        font-size: 14px;
+        padding-bottom: 20px;
     }
 
     .streamingi {
-        margin-top: 10px;
+        margin-top: 5px;
         margin-bottom: 5px;
     }
 
     .streamingi img {
-        max-height: 30px;
+        max-height: 28px;
     }
 
     .footer {
-        padding: 6px 0;
+        padding: 5px 0;
     }
 }
 
@@ -151,14 +154,19 @@ img {
     body {
         font-size: 14px;
         padding-top: 80px;
+        padding-bottom: 100px; /* Większy padding na mobilnych, aby linki były widoczne */
     }
 
     .releases a {
-        font-size: 14px;
-        margin-top: 10px;
+        font-size: 12px;
+        margin-top: 8px;
+    }
+
+    .releases {
+        padding-bottom: 30px;
     }
 
     .footer p {
-        font-size: 9px;
+        font-size: 8px;
     }
 }
