@@ -166,6 +166,7 @@ img {
 
     .releases {
         padding-bottom: 40px;
+        margin-top: -10px; /* Podniesienie linków o 10px */
     }
 
     .footer {
