@@ -9,7 +9,7 @@ body {
     background-color: #000;
     color: #fff;
     font-size: 18px;
-    padding-top: 80px; /* Zwiększony padding, aby uniknąć nachodzenia headera */
+    padding-top: 160px; /* Zwiększony padding, aby uniknąć nachodzenia headera */
     padding-bottom: 80px; /* Zwiększony padding, aby linki nie chowały się za stopką */
 }
 
