@@ -183,6 +183,6 @@ img {
     }
 
     .header img {
-        max-height: 90px; /* Zmniejszona grafika o 30px */
+        max-height: 65px; /* Zmniejszona grafika o dodatkowe 25px */
     }
 }
