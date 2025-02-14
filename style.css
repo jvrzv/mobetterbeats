@@ -153,11 +153,11 @@ img {
     }
 
     .header {
-        height: 100px; /* Mniejsza wysokość headera na iPadzie */
+        height: 120px; /* Mniejsza wysokość headera na iPadzie */
     }
 
     .header img {
-        max-height: 100px; /* Dopasowanie obrazka do headera */
+        max-height: 90px; /* Dopasowanie obrazka do headera */
     }
 }
 
@@ -191,10 +191,10 @@ img {
     }
 
     .header {
-        height: 80px; /* Jeszcze mniejszy header na telefonie */
+        height: 100px; /* Jeszcze mniejszy header na telefonie */
     }
 
     .header img {
-        max-height: 80px; /* Dopasowanie obrazka do headera */
+        max-height: 75px; /* Dopasowanie obrazka do headera */
     }
 }
