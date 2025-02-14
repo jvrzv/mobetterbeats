@@ -181,7 +181,11 @@ img {
         padding-bottom: 40px;
         margin-top: -10px; /* Podniesienie linków o 10px */
     }
-
+    
+    /* Zmniejszenie obrazu w albumie na telefonie */
+    .album img {
+        max-height: 200px; /* Możesz dostosować tę wartość, jeśli chcesz mniejszy obrazek */
+    }
     .footer {
         padding: 5px 0;
     }
