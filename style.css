@@ -184,7 +184,7 @@ img {
     
     /* Zmniejszenie obrazu w albumie na telefonie */
     .album img {
-        max-height: 200px; /* Możesz dostosować tę wartość, jeśli chcesz mniejszy obrazek */
+        max-height: 350px; /* Możesz dostosować tę wartość, jeśli chcesz mniejszy obrazek */
     }
     .footer {
         padding: 5px 0;
