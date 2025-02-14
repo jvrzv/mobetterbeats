@@ -9,7 +9,7 @@ body {
     background-color: #000;
     color: #fff;
     font-size: 18px;
-    padding-top: 160px; /* Zwiększony padding, aby uniknąć nachodzenia headera */
+    padding-top: 200px; /* Zwiększony padding, aby uniknąć nachodzenia headera */
     padding-bottom: 80px; /* Zwiększony padding, aby linki nie chowały się za stopką */
 }
 
@@ -126,7 +126,7 @@ img {
 @media screen and (max-width: 1024px) {
     body {
         font-size: 16px;
-        padding-top: 160px;
+        padding-top: 200px;
         padding-bottom: 90px; /* Zapobiega zasłanianiu linków przez stopkę */
     }
 
@@ -156,7 +156,7 @@ img {
 @media screen and (max-width: 600px) {
     body {
         font-size: 14px;
-        padding-top: 100px;
+        padding-top: 75px;
         padding-bottom: 100px; /* Większy padding na mobilnych, aby linki były widoczne */
     }
 
