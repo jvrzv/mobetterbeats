@@ -47,7 +47,7 @@ img {
     background-color: black;
     padding: 10px 0;
     z-index: 1000;
-    height: 120px; /* Ustalona wysokość nagłówka */
+    height: 160px; /* Ustalona wysokość nagłówka */
 }
 
 .header img {
@@ -153,7 +153,7 @@ img {
     }
 
     .header {
-        height: 120px; /* Mniejsza wysokość headera na iPadzie */
+        height: 140px; /* Mniejsza wysokość headera na iPadzie */
     }
 
     .header img {
