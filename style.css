@@ -60,12 +60,12 @@ img {
 .album {
     text-align: center;
     flex-grow: 1;
-    margin-bottom: 0px; /* Zmniejszony odstęp między albumem a ikonami */
+    margin-bottom: 5px;
 }
 
 .streamingi {
     text-align: center;
-    margin: 10px auto; /* Zmniejszony margines nad i pod ikonkami */
+    margin: 5px auto;
 }
 
 .streamingi img {
@@ -131,6 +131,17 @@ img {
     a {
         font-size: 16px;
     }
+    
+    .album {
+    text-align: center;
+    flex-grow: 1;
+    margin-bottom: 5px;
+}
+
+    .streamingi {
+    margin-top: 5px;
+     margin-bottom: 5px;
+    }
 
     .releases {
         font-size: 16px;
@@ -170,9 +181,13 @@ img {
 
     .album {
         flex-grow: 1;
-        margin-bottom: 5px; /* Jeszcze mniejszy odstęp na telefonie */
+        margin-bottom: 2px;
     }
-
+    .streamingi {
+        margin-top: 2px; /* Zmniejszony margines między albumem a ikonkami */
+        margin-bottom: 2px;
+    }
+    
     .releases a {
         font-size: 14px;
         margin-top: 10px;
