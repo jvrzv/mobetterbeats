@@ -60,17 +60,20 @@ img {
 .album {
     text-align: center;
     flex-grow: 1;
-    margin-bottom: 5px;
+    margin: 0; /* Usunięcie marginesu */
+    padding: 0; /* Upewnienie się, że padding jest 0 */
 }
 
 .streamingi {
     text-align: center;
-    margin: 5px auto;
+    margin: 0; /* Usunięcie marginesu */
+    padding: 0; /* Upewnienie się, że padding jest 0 */
 }
 
 .streamingi img {
     max-height: 40px;
     width: auto;
+    margin: 0; /* Usunięcie marginesu */
 }
 
 .odstepy {
@@ -133,24 +136,17 @@ img {
     }
     
     .album {
-    text-align: center;
-    flex-grow: 1;
-    margin-bottom: 5px;
-}
+        margin-bottom: 0; /* Usunięcie marginesu */
+    }
 
     .streamingi {
-    margin-top: 5px;
-     margin-bottom: 5px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .releases {
         font-size: 16px;
         padding-bottom: 30px;
-    }
-
-    .streamingi {
-        margin-top: 5px;
-        margin-bottom: 5px;
     }
 
     .streamingi img {
@@ -181,8 +177,9 @@ img {
 
     .album {
         flex-grow: 1;
-        margin-bottom: 2px;
+        margin-bottom: 2px; /* Mniejszy margines */
     }
+
     .streamingi {
         margin-top: 2px; /* Zmniejszony margines między albumem a ikonkami */
         margin-bottom: 2px;
@@ -201,6 +198,7 @@ img {
     .album img {
         max-height: 350px;
     }
+
     .footer {
         padding: 5px 0;
     }
