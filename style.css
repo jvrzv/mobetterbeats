@@ -13,8 +13,8 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     min-height: 100vh;
-    padding-top: 20px; /* Zmniejszony padding, bo header nie jest już fixed */
-    padding-bottom: 20px; /* Zmniejszony padding, bo footer nie jest już fixed */
+    padding-top: 20px;
+    padding-bottom: 40px; /* Zwiększony padding, aby stopka nie była za nisko */
 }
 
 a {
@@ -104,6 +104,7 @@ img {
     background-color: black;
     padding: 8px 0;
     color: #888;
+    margin-top: auto; /* Zapewnia, że stopka nie będzie za nisko na telefonie */
 }
 
 .footer p {
@@ -124,7 +125,7 @@ img {
     body {
         font-size: 16px;
         padding-top: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
 
     a {
@@ -162,7 +163,7 @@ img {
     body {
         font-size: 14px;
         padding-top: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
     }
 
     .releases a {
