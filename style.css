@@ -14,7 +14,7 @@ body {
     justify-content: flex-start;
     min-height: 100vh;
     padding-top: 20px;
-    padding-bottom: 40px; /* Zwiększony padding, aby stopka nie była za nisko */
+    padding-bottom: 40px;
 }
 
 a {
@@ -59,6 +59,7 @@ img {
 
 .album {
     text-align: center;
+    flex-grow: 1;
 }
 
 .streamingi {
@@ -104,7 +105,7 @@ img {
     background-color: black;
     padding: 8px 0;
     color: #888;
-    margin-top: auto; /* Zapewnia, że stopka nie będzie za nisko na telefonie */
+    margin-top: auto;
 }
 
 .footer p {
@@ -164,6 +165,13 @@ img {
         font-size: 14px;
         padding-top: 20px;
         padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .album {
+        flex-grow: 1;
     }
 
     .releases a {
@@ -181,6 +189,7 @@ img {
     }
     .footer {
         padding: 5px 0;
+        margin-top: auto;
     }
 
     .footer p {
