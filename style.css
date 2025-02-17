@@ -45,7 +45,7 @@ img {
 .header {
     width: 100%;
     text-align: center;
-    background-color: black;
+    background-color: #353535;
     padding: 10px 0;
     height: 160px;
 }
@@ -60,7 +60,7 @@ img {
 .album {
     text-align: center;
     flex-grow: 1;
-    margin-bottom: 10px; /* Zmniejszony odstęp między albumem a ikonami */
+    margin-bottom: 0px; /* Zmniejszony odstęp między albumem a ikonami */
 }
 
 .streamingi {
@@ -103,7 +103,7 @@ img {
 .footer {
     width: 100%;
     text-align: center;
-    background-color: black;
+    background-color: #353535;
     padding: 8px 0;
     color: #888;
 }
