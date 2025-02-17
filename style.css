@@ -47,7 +47,7 @@ img {
     text-align: center;
     background-color: transparent;
     padding: 10px 0;
-    height: 160px;
+    height: 75px;
 }
 
 .header img {
@@ -145,7 +145,7 @@ img {
 
     .releases {
         font-size: 16px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
 
     .streamingi img {
@@ -157,7 +157,7 @@ img {
     }
 
     .header {
-        height: 140px;
+        height: 76px;
     }
 
     .header img {
@@ -190,7 +190,7 @@ img {
     }
 
     .releases {
-        padding-bottom: 40px;
+        padding-bottom: 20px;
         margin-top: -10px;
     }
     
@@ -210,7 +210,7 @@ img {
     }
 
     .header {
-        height: 100px;
+        height: 50px;
     }
 
     .header img {
@@ -220,8 +220,8 @@ img {
 
 @media screen and (min-width: 1025px) and (max-width: 1366px) {
     .releases {
-        padding-bottom: 20px;
-        margin-bottom: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 5px;
     }
     .streamingi {
         margin-top: 5px;
@@ -231,7 +231,7 @@ img {
 
 @media screen and (min-width: 1367px) {
     .releases {
-        padding-bottom: 15px;
+        padding-bottom: 5px;
         margin-bottom: 5px;
     }
     .streamingi {
