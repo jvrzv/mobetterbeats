@@ -13,8 +13,8 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     min-height: 100vh;
-    padding-top: 160px; /* Zmniejszony padding-top, aby treść była bliżej góry strony */
-    padding-bottom: 80px; /* Zwiększony padding, aby linki nie chowały się za stopką */
+    padding-top: 20px; /* Zmniejszony padding, bo header nie jest już fixed */
+    padding-bottom: 20px; /* Zmniejszony padding, bo footer nie jest już fixed */
 }
 
 a {
@@ -43,15 +43,11 @@ img {
 }
 
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     text-align: center;
     background-color: black;
     padding: 10px 0;
-    z-index: 1000;
-    height: 160px; /* Ustalona wysokość nagłówka */
+    height: 160px;
 }
 
 .header img {
@@ -85,7 +81,7 @@ img {
     font-size: 18px;
     margin: 20px auto;
     padding-top: 10px;
-    padding-bottom: 20px; /* Dodane, aby linki nie nachodziły na stopkę */
+    padding-bottom: 20px;
 }
 
 .releases a {
@@ -103,9 +99,6 @@ img {
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
     width: 100%;
     text-align: center;
     background-color: black;
@@ -130,8 +123,8 @@ img {
 @media screen and (max-width: 1024px) {
     body {
         font-size: 16px;
-        padding-top: 140px; /* Zmniejszony padding na tabletach */
-        padding-bottom: 90px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     a {
@@ -157,19 +150,19 @@ img {
     }
 
     .header {
-        height: 140px; /* Mniejsza wysokość headera na iPadzie */
+        height: 140px;
     }
 
     .header img {
-        max-height: 90px; /* Dopasowanie obrazka do headera */
+        max-height: 90px;
     }
 }
 
 @media screen and (max-width: 600px) {
     body {
         font-size: 14px;
-        padding-top: 120px; /* Jeszcze mniejszy padding na telefonach */
-        padding-bottom: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .releases a {
@@ -179,12 +172,11 @@ img {
 
     .releases {
         padding-bottom: 40px;
-        margin-top: -10px; /* Podniesienie linków o 10px */
+        margin-top: -10px;
     }
     
-    /* Zmniejszenie obrazu w albumie na telefonie */
     .album img {
-        max-height: 350px; /* Możesz dostosować tę wartość, jeśli chcesz mniejszy obrazek */
+        max-height: 350px;
     }
     .footer {
         padding: 5px 0;
@@ -199,10 +191,10 @@ img {
     }
 
     .header {
-        height: 100px; /* Jeszcze mniejszy header na telefonie */
+        height: 100px;
     }
 
     .header img {
-        max-height: 75px; /* Dopasowanie obrazka do headera */
+        max-height: 75px;
     }
 }
