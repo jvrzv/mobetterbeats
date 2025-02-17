@@ -1,9 +1,11 @@
+/* Resetowanie domyślnych styli */
 * { 
     box-sizing: border-box; 
     margin: 0;
     padding: 0;
 }
 
+/* Stylizacja body */
 body {
     font-family: 'Open Sans', sans-serif !important;
     background-color: #353535;
@@ -17,6 +19,7 @@ body {
     padding-bottom: 0;
 }
 
+/* Linki */
 a {
     color: #fff;
     font-size: 18px;
@@ -28,6 +31,7 @@ a:hover {
     color: #ff2b45;
 }
 
+/* Obrazki */
 img {
     max-width: 100%;
     height: auto;
@@ -42,6 +46,7 @@ img {
     filter: brightness(0.8);
 }
 
+/* Nagłówek */
 .header {
     width: 100%;
     text-align: center;
@@ -57,30 +62,31 @@ img {
     margin: 0 auto;
 }
 
+/* Sekcja albumu */
 .album {
     text-align: center;
     flex-grow: 1;
-    margin: 0; /* Usunięcie marginesu */
-    padding: 0; /* Upewnienie się, że padding jest 0 */
+    margin-bottom: 5px;
 }
 
+/* Ikony streamingu */
 .streamingi {
     text-align: center;
-    margin: 0; /* Usunięcie marginesu */
-    padding: 0; /* Upewnienie się, że padding jest 0 */
+    margin: 5px auto;
 }
 
 .streamingi img {
     max-height: 40px;
     width: auto;
-    margin: 0; /* Usunięcie marginesu */
 }
 
+/* Odstępy */
 .odstepy {
     padding-right: 8px;
     padding-left: 8px;
 }
 
+/* Poprzednie wydania */
 .releases {
     text-align: center;
     font-size: 18px;
@@ -103,6 +109,7 @@ img {
     color: #FFFF8F;
 }
 
+/* Stopka */
 .footer {
     width: 100%;
     text-align: center;
@@ -124,7 +131,7 @@ img {
     margin: 0 auto;
 }
 
-/* Responsive Styles */
+/* Responsywność */
 @media screen and (max-width: 1024px) {
     body {
         font-size: 16px;
@@ -136,12 +143,15 @@ img {
     }
     
     .album {
-        margin-bottom: 0; /* Usunięcie marginesu */
+        flex-grow: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        min-height: auto;
     }
 
     .streamingi {
-        margin-top: 0;
-        margin-bottom: 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
     .releases {
@@ -176,12 +186,14 @@ img {
     }
 
     .album {
-        flex-grow: 1;
-        margin-bottom: 2px; /* Mniejszy margines */
+        flex-grow: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        min-height: auto;
     }
 
     .streamingi {
-        margin-top: 2px; /* Zmniejszony margines między albumem a ikonkami */
+        margin-top: 2px;
         margin-bottom: 2px;
     }
     
