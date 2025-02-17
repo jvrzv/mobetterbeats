@@ -1,11 +1,9 @@
-/* Resetowanie domyślnych styli */
 * { 
     box-sizing: border-box; 
     margin: 0;
     padding: 0;
 }
 
-/* Stylizacja body */
 body {
     font-family: 'Open Sans', sans-serif !important;
     background-color: #353535;
@@ -19,7 +17,6 @@ body {
     padding-bottom: 0;
 }
 
-/* Linki */
 a {
     color: #fff;
     font-size: 18px;
@@ -31,7 +28,6 @@ a:hover {
     color: #ff2b45;
 }
 
-/* Obrazki */
 img {
     max-width: 100%;
     height: auto;
@@ -46,7 +42,6 @@ img {
     filter: brightness(0.8);
 }
 
-/* Nagłówek */
 .header {
     width: 100%;
     text-align: center;
@@ -62,14 +57,12 @@ img {
     margin: 0 auto;
 }
 
-/* Sekcja albumu */
 .album {
     text-align: center;
     flex-grow: 1;
     margin-bottom: 5px;
 }
 
-/* Ikony streamingu */
 .streamingi {
     text-align: center;
     margin: 5px auto;
@@ -80,13 +73,11 @@ img {
     width: auto;
 }
 
-/* Odstępy */
 .odstepy {
     padding-right: 8px;
     padding-left: 8px;
 }
 
-/* Poprzednie wydania */
 .releases {
     text-align: center;
     font-size: 18px;
@@ -109,7 +100,6 @@ img {
     color: #FFFF8F;
 }
 
-/* Stopka */
 .footer {
     width: 100%;
     text-align: center;
@@ -131,7 +121,7 @@ img {
     margin: 0 auto;
 }
 
-/* Responsywność */
+/* Responsive Styles */
 @media screen and (max-width: 1024px) {
     body {
         font-size: 16px;
@@ -143,10 +133,9 @@ img {
     }
     
     .album {
-        flex-grow: 0;
-        margin-bottom: 0;
-        padding-bottom: 0;
-        min-height: auto;
+        text-align: center;
+        flex-grow: 1;
+        margin-bottom: 5px;
     }
 
     .streamingi {
@@ -186,10 +175,8 @@ img {
     }
 
     .album {
-        flex-grow: 0;
-        margin-bottom: 0;
-        padding-bottom: 0;
-        min-height: auto;
+        flex-grow: 1;
+        margin-bottom: 2px;
     }
 
     .streamingi {
@@ -210,7 +197,6 @@ img {
     .album img {
         max-height: 350px;
     }
-
     .footer {
         padding: 5px 0;
     }
@@ -229,5 +215,27 @@ img {
 
     .header img {
         max-height: 75px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+    .releases {
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+    }
+    .streamingi {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (min-width: 1367px) {
+    .releases {
+        padding-bottom: 15px;
+        margin-bottom: 5px;
+    }
+    .streamingi {
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 }
