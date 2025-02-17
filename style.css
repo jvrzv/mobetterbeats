@@ -11,10 +11,8 @@ body {
     font-size: 18px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     min-height: 100vh;
     padding-top: 20px;
-    padding-bottom: 0;
 }
 
 a {
@@ -45,7 +43,6 @@ img {
 .header {
     width: 100%;
     text-align: center;
-    background-color: transparent;
     padding: 10px 0;
     height: 75px;
 }
@@ -60,7 +57,6 @@ img {
 .album {
     text-align: center;
     flex-grow: 1;
-    margin-bottom: 5px;
 }
 
 .streamingi {
@@ -73,27 +69,18 @@ img {
     width: auto;
 }
 
-.odstepy {
-    padding-right: 8px;
-    padding-left: 8px;
-}
-
 .releases {
     text-align: center;
     font-size: 18px;
     margin: 20px auto;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding: 10px 0 20px;
 }
 
 .releases a {
-    font-size: 18px;
     color: #fff;
     text-decoration: none;
-    padding-top: 5px;
     display: inline-block;
     margin-top: 10px;
-    font-family: 'Roboto Mono', monospace;
 }
 
 .releases a:hover {
@@ -103,7 +90,6 @@ img {
 .footer {
     width: 100%;
     text-align: center;
-    background-color: transparent;
     padding: 8px 0;
     color: #888;
 }
@@ -111,7 +97,6 @@ img {
 .footer p {
     margin: 2px 0;
     font-size: 10px;
-    color: #888;
 }
 
 .footer img {
@@ -125,35 +110,14 @@ img {
 @media screen and (max-width: 1024px) {
     body {
         font-size: 16px;
-        padding-top: 20px;
     }
 
     a {
         font-size: 16px;
     }
-    
-    .album {
-        text-align: center;
-        flex-grow: 1;
-        margin-bottom: 5px;
-    }
-
-    .streamingi {
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-
-    .releases {
-        font-size: 16px;
-        padding-bottom: 20px;
-    }
 
     .streamingi img {
         max-height: 30px;
-    }
-
-    .footer {
-        padding: 6px 0;
     }
 
     .header {
@@ -163,40 +127,34 @@ img {
     .header img {
         max-height: 90px;
     }
+
+    .footer {
+        padding: 6px 0;
+    }
 }
 
 @media screen and (max-width: 600px) {
     body {
         font-size: 14px;
-        padding-top: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
     }
 
-    .album {
-        flex-grow: 1;
-        margin-bottom: 2px;
-    }
-
-    .streamingi {
-        margin-top: 2px;
-        margin-bottom: 2px;
-    }
-    
-    .releases a {
-        font-size: 14px;
-        margin-top: 10px;
+    .album img {
+        max-height: 350px;
     }
 
     .releases {
         padding-bottom: 20px;
         margin-top: -10px;
     }
-    
-    .album img {
-        max-height: 350px;
+
+    .releases a {
+        font-size: 14px;
     }
+
+    .streamingi {
+        margin: 2px 0;
+    }
+
     .footer {
         padding: 5px 0;
     }
@@ -223,19 +181,11 @@ img {
         padding-bottom: 10px;
         margin-bottom: 5px;
     }
-    .streamingi {
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
 }
 
 @media screen and (min-width: 1367px) {
     .releases {
         padding-bottom: 5px;
-        margin-bottom: 5px;
-    }
-    .streamingi {
-        margin-top: 5px;
         margin-bottom: 5px;
     }
 }
