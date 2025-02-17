@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif !important;
-    background-color: #000;
+    background-color: #353535;
     color: #fff;
     font-size: 18px;
     display: flex;
@@ -45,7 +45,7 @@ img {
 .header {
     width: 100%;
     text-align: center;
-    background-color: black;
+    background-color: #353535;
     padding: 10px 0;
     height: 160px;
 }
@@ -102,7 +102,7 @@ img {
 .footer {
     width: 100%;
     text-align: center;
-    background-color: black;
+    background-color: #353535;
     padding: 8px 0;
     color: #888;
 }
