@@ -1,0 +1,199 @@
+* { 
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'VCR';
+    src: url('fonts/VCR.woff2') format('woff2'),
+         url('fonts/VCR.woff') format('woff'),
+         url('fonts/VCR.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'VCR', sans-serif;
+    background-color: #edff00;
+    color: #000000;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 20px;
+    align-items: center;
+}
+
+a {
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'VCR', sans-serif;
+}
+
+a:hover {
+    color: #000000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hover-effect {
+    transition: all 0.1s linear;
+    filter: brightness(1);
+}
+
+.hover-effect:hover {
+    filter: brightness(0.8);
+}
+
+/* 1. Naprawa logo w headerze */
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    z-index: 10;
+    margin-bottom: 20px;
+}
+
+.header img {
+    max-height: 100px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* 2. Poprawienie pozycji albumu i ikon */
+.album {
+    text-align: center;
+    margin-bottom: 0px; /* Usunięcie odstępu */
+}
+
+.streamingi {
+    text-align: center;
+    margin-top: 25px; /* Przesunięcie ikon niżej o 5px */
+}
+.streamingi img {
+    max-height: 60px;
+    width: auto;
+    margin: 5px;
+}
+
+.releases {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px auto;
+    padding: 10px 0 20px;
+}
+
+.releases a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.releases a:hover {
+    color: #000000;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 33px 0; /* Przesunięcie footera o 25px w dół */
+    color: #000000;
+}
+
+.footer p {
+    margin: 2px 0;
+    font-size: 12px;
+}
+
+.footer img {
+    max-height: 75px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* 3. Zmiana koloru linku w qrcode.html */
+a[href="/"] {
+    color: #0032a0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    .streamingi {
+        margin-top: 15px;
+    }
+    .streamingi img {
+        max-height: 40px;
+    }
+
+    .header img {
+        max-height: 90px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .album img {
+        max-height: 350px;
+    }
+
+    .releases {
+        padding-bottom: 20px;
+        margin-top: -10px;
+    }
+
+    .releases a {
+        font-size: 14px;
+    }
+
+    .streamingi {
+        margin-top: 15px;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+
+    .footer p {
+        font-size: 7px;
+    }
+
+    .footer img {
+        max-height: 50px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+    .releases {
+        padding-bottom: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (min-width: 1367px) {
+    .releases {
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+}
