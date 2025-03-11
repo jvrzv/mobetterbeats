@@ -154,6 +154,8 @@ a[href="/"] {
 @media screen and (max-width: 600px) {
     body {
         font-size: 14px;
+	padding-top: 5px;
+	margin-bottom: 5px;
     }
 
     .album img {
