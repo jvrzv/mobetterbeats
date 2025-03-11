@@ -145,7 +145,8 @@ a[href="/"] {
     }
 
     .header img {
-        max-height: 70px;
+        max-height: 75px;
+    	padding: 10px 0;
     }
 }
 
