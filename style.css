@@ -6,7 +6,8 @@
 
 @font-face {
     font-family: 'vcr';
-    src: url('fonts/vcr.woff2') format('woff2'),
+    src: local('vcr'),
+         url('fonts/vcr.woff2') format('woff2'),
          url('fonts/vcr.woff') format('woff'),
          url('fonts/vcr.ttf') format('truetype');
     font-weight: normal;
@@ -29,11 +30,10 @@ a {
     color: #000000;
     font-size: 18px;
     text-decoration: none;
-    font-family: 'vcr', sans-serif;
 }
 
 a:hover {
-    color: #000000;
+    color: #333333;
 }
 
 img {
@@ -50,7 +50,6 @@ img {
     filter: brightness(0.8);
 }
 
-/* 1. Naprawa logo w headerze */
 .header {
     width: 100%;
     text-align: center;
@@ -67,16 +66,16 @@ img {
     margin: 0 auto;
 }
 
-/* 2. Poprawienie pozycji albumu i ikon */
 .album {
     text-align: center;
-    margin-bottom: 0px; /* Usunięcie odstępu */
+    margin-bottom: 0px;
 }
 
 .streamingi {
     text-align: center;
-    margin-top: 25px; /* Przesunięcie ikon niżej o 5px */
+    margin-top: 25px;
 }
+
 .streamingi img {
     max-height: 60px;
     width: auto;
@@ -91,7 +90,7 @@ img {
 }
 
 .releases a {
-    color: #fff;
+    color: #333333;
     text-decoration: none;
     display: inline-block;
     margin-top: 10px;
@@ -104,8 +103,11 @@ img {
 .footer {
     width: 100%;
     text-align: center;
-    padding: 33px 0; /* Przesunięcie footera o 25px w dół */
+    padding: 33px 0;
     color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer p {
@@ -120,14 +122,12 @@ img {
     margin: 0 auto;
 }
 
-/* 3. Zmiana koloru linku w qrcode.html */
 a[href="/"] {
     color: #0032a0;
     font-weight: bold;
     text-decoration: underline;
 }
 
-/* Responsive Styles */
 @media screen and (max-width: 1024px) {
     body {
         font-size: 16px;
@@ -140,13 +140,14 @@ a[href="/"] {
     .streamingi {
         margin-top: 15px;
     }
+
     .streamingi img {
         max-height: 40px;
     }
 
     .header img {
         max-height: 75px;
-    	padding: 10px 0;
+        padding: 0;
     }
 }
 
@@ -195,6 +196,6 @@ a[href="/"] {
 @media screen and (min-width: 1367px) {
     .releases {
         padding-bottom: 5px;
-        margin-bottom: 5px;
-    }
+        margin-bottom: 5px;
+    }
 }
