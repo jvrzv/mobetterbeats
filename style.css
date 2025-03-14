@@ -28,7 +28,6 @@ body {
 
 a {
     color: #0032a0;
-    font-size: 18px;
     text-decoration: none;
     transition: color 0.1s linear;
 }
@@ -137,11 +136,6 @@ a[href="/"] {
     body {
         font-size: 16px;
     }
-
-    a {
-        font-size: 16px;
-    }
-
     .streamingi {
         margin-top: 15px;
     }
